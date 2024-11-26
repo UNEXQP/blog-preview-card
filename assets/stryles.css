@@ -1,0 +1,69 @@
+@font-face {
+    font-family: myfont;
+    src: url(./fonts/Figtree-Italic-VariableFont_wght.ttf),
+     url(./fonts/Figtree-VariableFont_wght.ttf);
+         
+}
+
+
+body {
+    background-color: yellow;
+}
+
+.inner {
+    width: 400px;
+    height: 470px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid;
+    margin-left: 130px;
+    box-shadow: 6px 5px 0px black
+}
+
+.svg-container {
+    border-radius: 15px;
+
+}
+
+svg {
+    margin-top: 10px;
+    margin-left: 32px;
+    border-radius: 15px;
+}
+
+.learning {
+    text-align: center; /* Centers text horizontally (still needed for inline text) */
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Centers text horizontally */
+    align-items: center; /* Centers text vertically */
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    margin-left: 5px;
+    background-color: #ffae00;
+}
+
+
+.profile {
+    margin-top: 10px;
+    display: flex; /* Aligns items horizontally */
+    align-items: center; /* Centers items vertically */
+  }
+  
+  .profile img {
+    width: 40px; /* Set image size */
+    height: 40px; /* Ensure consistent height */
+    border-radius: 50%; /* Makes the image circular */
+    margin-right: 10px; /* Adds spacing between the image and text */
+  }
+  
+  .profile span {
+    font-size: 16px; /* Adjust text size */
+    color: #333; /* Text color */
+  }
+
+
+  .attribution{
+    margin-top: 10px;
+  }
+  
